@@ -10,7 +10,7 @@ public class DBConnect {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			cons = DriverManager.getConnection(
-					"jdbc:mysql://s-cdbr-east-06.cleardb.net:3306/heroku_2b4b7a67e105418", "b4bfae45df5bd3", "67b62b4f");
+					"jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_2b4b7a67e105418", "b4bfae45df5bd3", "67b62b4f");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
